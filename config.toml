@@ -1,0 +1,16 @@
+[db]
+  data-source = "postgresql://postgres:1234@127.0.0.1:5432/teldrive"
+
+[jwt]
+  secret = "40f109e49613a602ee191783d005205fdeb2ecbe1b04f014281d1fbdadc68b5c0a5629f17e360e498fe0b7ac77eca0a7657ed7d682741e30b2273b53fef88e63"
+
+[server]
+  graceful-shutdown = "15s"
+  port = 8080
+  read-timeout = "1h"
+  write-timeout = "1h"
+
+[tg]
+  app-hash = "f8d3c145f0bf80502b6d82a39664d412"
+  app-id = 14896115
+  rate-limit = false
